@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+
+/* background setup */
+
+.background {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-position: 50% 50%;
+}
+
+
+/* fullscreen setup */
+
+html, body {
+  /* give this to all tags from html to .fullscreen */
+  height: 100%;
+}
+
+.fullscreen, .content-a {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.fullscreen.overflow, .fullscreen.overflow .content-a {
+  height: auto;
+  min-height: 100%;
+}
+
+
+/* content centering styles */
+
+.content-a {
+  display: table;
+}
+
+.content-b {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.content-c {
+  display: table-cell;
+  position: relative;
+  float: left;
+  width: 650px;
+  padding-left: 50px;
+  margin: auto;
+  text-align: left;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.content-c2 {
+  display: table-cell;
+  position: relative;
+  float: left;
+  width: 650px;
+  padding-left: 50px;
+  margin: auto;
+  text-align: left;
+  font-size: 30px;
+}
+
+
+/* visual styles */
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Lato", sans-serif;
+  line-height: 100px;
+  color: #edf8ff;
+  text-align: center;
+}
+
+section {
+  background: #000000;
+}
+
+.not-fullscreen {
+  height: 100%;
+}
+
+.smallscreen {
+  height: 15%
+}
+
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 2px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #C6C4FD;
+}
+
+img.resize {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.img_scale {
+  width: auto;
+  max-width: 500px;
+  height: auto;
+  max-height: 500px;
+}
+
+.logo_scale {
+  width: auto;
+  max-width: 80px;
+  height: auto;
+  max-height: 80px;
+}
